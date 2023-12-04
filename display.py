@@ -13,6 +13,7 @@ trainer=ModelTrainer()
 
 # Define the Dash app
 app = dash.Dash(__name__)
+server=app.server
 
 # Define the layout of the app
 app.layout = html.Div([
